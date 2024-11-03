@@ -4,7 +4,7 @@ import { AiOutlineX, AiFillGithub } from 'react-icons/ai';
 
 export const SocialLinks = () => {
   return (
-    <div className='flex gap-6 mt-8'>
+    <div className="flex md:gap-6 gap-4 md:mt-8 mt-6">
       <IconButton
         href="https://x.com/YahaPro"
         icon={<AiOutlineX size={50} color="#333" />}

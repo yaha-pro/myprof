@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 // import { Link as Scroll } from "react-scroll";
+import ScrollComponent from '@/components/ScrollComponent/ScrollComponent';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,11 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh`}>
-        <header className="h-16 flex items-center mx-auto px-7 py-14 bg-orange-50	">
-          {/* <Scroll to="top" smooth={true} duration={500}> */}
-            <img src="/images/img_profile.jpg" alt="Scroll to top" className="w-16 h-16 rounded-full border border-black"/>
-          {/* </Scroll> */}
-          <div id="top"></div>
+        <header className="items-center mx-auto bg-orange-50	">
+          <ScrollComponent />
         </header>
 
         {children}

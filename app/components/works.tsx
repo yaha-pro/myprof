@@ -18,29 +18,29 @@ const WorkBox: React.FC<WorkBoxProps> = ({ url, imgSrc, altText, title, date }) 
 
 export const Works = () => {
   return (
-    <section id="works" className="bg-orange-50 flex justify-center py-12">
+    <section id="works" className="bg-orange-50 flex justify-center md:py-12 py-8 md:px-0 px-6">
       <div>
-      <h2 className="text-5xl font-bold mb-10 text-orange-300 text-center">Works</h2>
+      <h2 className="md:text-5xl text-3xl font-bold md:mb-10 mb-7 text-orange-300 text-center">Works</h2>
         <div className="flex flex-wrap gap-8 justify-center">
           <WorkBox
             url="#"
             imgSrc="/images/portfolio.jpg"
             altText="#"
-            title="ポートフォリオ"
+            title="ポートフォリオ（まだないよ）"
             date="202x.xx.xx"
           />
           <WorkBox
             url="#"
             imgSrc="/images/portfolio.jpg"
             altText="#"
-            title="ポートフォリオ"
+            title="ポートフォリオ（まだないよ）"
             date="202x.xx.xx"
           />
           <WorkBox
             url="#"
             imgSrc="/images/portfolio.jpg"
             altText="#"
-            title="ポートフォリオ"
+            title="ポートフォリオ（まだないよ）"
             date="202x.xx.xx"
           />
         </div>
