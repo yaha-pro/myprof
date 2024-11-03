@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Link as Scroll } from "react-scroll";
+// import { Link as Scroll } from "react-scroll";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

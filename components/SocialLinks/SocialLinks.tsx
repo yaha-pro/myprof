@@ -16,5 +16,5 @@ export const SocialLinks = () => {
         label="GitHub"
       />
     </div>
-  );　  
+  );
 };

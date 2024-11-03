@@ -2,9 +2,9 @@ import { AiOutlineSolution, AiOutlineLaptop, AiOutlineStar } from 'react-icons/a
 
 export const About = () => {
   return (
-    <section id="about" className="bg-white flex justify-center py-10">
+    <section id="about" className="bg-white flex justify-center py-12">
       <div>
-        <h2 className="text-4xl font-bold mb-8 text-orange-300 text-center">About</h2>
+        <h2 className="text-5xl font-bold mb-10 text-orange-300 text-center">About</h2>
         <div className="flex flex-wrap gap-4 justify-center">
           <div className="max-w-sm rounded overflow-hidden shadow-lg border-2">
             <img src="/images/img_profile.jpg" alt="prof" className="w-full border-b-2" />
