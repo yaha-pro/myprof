@@ -10,8 +10,8 @@ const WorkBox: React.FC<WorkBoxProps> = ({ url, imgSrc, altText, title, date }) 
   <a href={url} className="max-w-96 border-2 rounded-md shadow">
     <img src={imgSrc} alt={altText}  className="w-full" />
     <div className="px-6 py-4 bg-white">
-    <h3 className="pb-5 font-bold">{title}</h3>
-      <span className="text-zinc-400 text-sm">{date}</span>
+    <h3 className="pb-5 font-bold">{title.replace(/'/g, '&apos;')}</h3>
+    <span className="text-zinc-400 text-sm">{date}</span>
     </div>
   </a>
 );
