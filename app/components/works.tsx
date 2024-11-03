@@ -7,9 +7,9 @@ interface WorkBoxProps {
 }
 
 const WorkBox: React.FC<WorkBoxProps> = ({ url, imgSrc, altText, title, date }) => (
-  <a href={url} className="max-w-96 border-2 rounded-md shadow">
-    <img src={imgSrc} alt={altText}  className="w-full" />
-    <div className="px-6 py-4 bg-white">
+  <a href={url} className="max-w-96 border-2 rounded-md shadow hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+    <img src={imgSrc} alt={altText} className="w-full rounded-t-md" />
+    <div className="px-6 py-4 bg-white rounded-b-md">
       <h3 className="pb-5 font-bold">{title}</h3>
       <span className="text-zinc-400 text-sm">{date}</span>
     </div>
