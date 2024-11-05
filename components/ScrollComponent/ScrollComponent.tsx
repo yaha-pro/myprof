@@ -8,8 +8,8 @@ const ScrollComponent: React.FC = () => {
 
   return (
     <div className='md:px-7 px-2 md:pt-7 pt-2' ref={ref}>
-      <img src="/images/img_profile.jpg" alt="Scroll to top" className="fixed md:w-16 w-10 md:h-16 h-10 rounded-full border border-black cursor-pointer
-                hover:opacity-60 transform hover:scale-105 transition duration-300 ease-in-out" onClick={scrollToTop}/>
+      <img src="/images/img_profile.jpg" alt="Scroll to top" className="fixed z-50 md:w-16 w-10 md:h-16 h-10 rounded-full border border-black cursor-pointer
+                hover:opacity-60 transform hover:scale-105 transition duration-300 ease-in-out title" onClick={scrollToTop}/>
     </div>
   );
 };
