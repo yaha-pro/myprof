@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh`}>
-        <header className="items-center mx-auto bg-orange-50	">
+        <header className="items-center mx-auto bg-orange-50">
           <ScrollComponent />
         </header>
 
