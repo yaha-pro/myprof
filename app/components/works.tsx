@@ -38,11 +38,11 @@ export const Works = () => {
       <h2 className="md:text-5xl text-3xl font-bold md:mb-10 mb-7 text-orange-300 text-center" data-aos="fade">Works</h2>
         <div className="flex flex-wrap gap-8 justify-center">
           <WorkBox
-            url="#"
-            imgSrc="/images/portfolio.jpg"
-            altText="#"
-            title="ポートフォリオ（まだないよ）"
-            date="202x.xx.xx"
+            url="https://ninda.vercel.app"
+            imgSrc="/images/ninda_portfolio.png"
+            altText="忍打"
+            title="忍打 - タイピングゲームサービス"
+            date="2025.03.06"
           />
           <WorkBox
             url="#"
