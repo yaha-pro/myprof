@@ -23,11 +23,11 @@ export const About = () => {
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2"><AiOutlineSolution size={30} color="#333" className='inline'/> 経歴</div>
               <p className="text-gray-700 text-base">
-                1995年、大阪生まれです。
-                2019年に近畿大学を卒業後、SESでシステムエンジニアとして働き始めました。
-                2022年にエンジニア向いてないんじゃね？って思って会社を辞めて転職活動しましたが、
-                結局2社目も同じSES業界で働いています。<br />
-                現在はWebエンジニアになりたいと思い、仕事をしながらRUNTEQというプログラミングスクールで勉強中です。
+                30歳 大阪生まれ<br/>
+                2019年3月 近畿大学卒業後、SES企業に就職<br/>
+                2022年8月 退職後、2社目のSES企業に就職<br/>
+                2024年6月 テックアカデミー卒業<br/>
+                2025年3月 RUNTEQ卒業
               </p>
             </div>
           </div>
@@ -37,9 +37,9 @@ export const About = () => {
               <div className="font-bold text-xl mb-2"><AiOutlineLaptop size={30} color="#333" className='inline'/> スキル</div>
               <p className="text-gray-700 text-base">
                 [技術] <br />
-                Visual C++、C、COBOL、Linux、PostgreSQL、MySql、Ruby <br />
+                Visual C++、C、Java、COBOL、Linux、PostgreSQL、MySql、Ruby <br />
                 [資格] <br />
-                ITパスポート、Oracle silver DBA、Oracle Java bronze、Lpic-1
+                ITパスポート、Oracle bronze/silver DBA、Oracle Java bronze/silver、Lpic-1
               </p>
             </div>
           </div>
